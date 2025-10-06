@@ -4,7 +4,7 @@
 /**
  * Module dependencies.
  */
-import jsonStore from '../lib/jsonStore'
+import jsonStore from '../lib/jsonStore.js'
 import store from '../config/store'
 import * as conf from '../config/app'
 import app, { startServer } from '../app'
