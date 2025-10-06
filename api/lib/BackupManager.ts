@@ -1,6 +1,6 @@
 import store from '../config/store'
 import { module } from './logger'
-import jsonStore, { STORE_BACKUP_PREFIX } from './jsonStore'
+import jsonStore, { STORE_BACKUP_PREFIX } from './jsonStore.js'
 import Cron from 'croner'
 import { readdir, unlink } from 'fs/promises'
 import { nvmBackupsDir, storeBackupsDir } from '../config/app'

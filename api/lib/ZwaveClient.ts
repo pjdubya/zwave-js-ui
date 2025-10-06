@@ -116,7 +116,7 @@ import {
 import { getEnumMemberName, parseQRCodeString } from 'zwave-js/Utils'
 import { configDbDir, logsDir, nvmBackupsDir, storeDir } from '../config/app'
 import store from '../config/store'
-import jsonStore from './jsonStore'
+import jsonStore from './jsonStore.js'
 import * as LogManager from './logger'
 import * as utils from './utils'
 
